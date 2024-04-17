@@ -1,0 +1,114 @@
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #893af7;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: 1px solid #4e29f5;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+/* Dashboard Page Styles */
+body {
+  background-image: url('bg1.jpg'); /* Replace 'background.jpg' with your image file */
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+/* Registration Form Styles */
+form {
+  animation: slideIn 3s ease-in-out; /* New animation for the form */
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+/*dashboard*/
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #4e29f5;
+  border-radius: 5px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+  text-align: left;
+}
+
+td {
+  text-align: center;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+tr {
+  animation: fadeIn 0.9s ease-in-out;
+}
+
+
+
